@@ -1,0 +1,22 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <div class="card">
+      <div class="item item-image">
+        <img ng-src="{{imgSrc}}">
+      </div>
+    </div>
+
+    <div class="button-bar">
+      <a ng-click="takePhoto()" class="button button-positive">Take a photo</a>
+      <a ng-click="choosePhoto()" class="button button-calm">Choose a photo</a>
+    </div>
+
+    <div>
+      <a ng-click="uploadPhoto()" class="button button-positive">Translate</a>
+    </div>
+    <div class="card">
+      <div class="item item-divider">Status</div>
+      <div class="item item-text-wrap">{{status}}</div>
+    </div>
+  </ion-content>
+</ion-view>
